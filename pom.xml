@@ -8,9 +8,6 @@
     <artifactId>TestNG_selenium_examples</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>before</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
