@@ -30,7 +30,7 @@ public class BeforeExamples {
         System.out.println(++counter + " - BeforeTest");
     }
 
-    @Test(groups = {"p2"})
+    @Test
     public void testMethod (){
         System.out.println(++counter + " - TestMethod");
     }

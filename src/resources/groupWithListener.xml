@@ -10,9 +10,11 @@
             </run>
         </groups>
         <classes>
-            <class name="groups.groupsExample"/>
-            <class name="before.BeforeExamples"/>
+            <class name="groups.GroupsExample"/>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
 </suite>
 
