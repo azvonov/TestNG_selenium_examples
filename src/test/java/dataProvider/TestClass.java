@@ -11,6 +11,6 @@ public class TestClass {
         LoginEngine loginEngine = new LoginEngine();
         loginEngine.loginUser(login,password);
 
-        System.out.println(++counter + " run by dataProvider");
+        System.out.println(++counter + " run by java.dataProvider");
     }
 }
