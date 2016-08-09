@@ -3,6 +3,7 @@
 <suite name="parametrized">
     <test name="Regression p1">
         <parameter name="browser" value="chrome"/>
+        <parameter name="OS" value="Windows"/>
         <classes>
             <class name="parameters.ParametersExample"/>
         </classes>

@@ -1,15 +1,16 @@
 package parameters;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class ParametersExample {
 
-    @Parameters("browser")
+    @Parameters({"browser","OS"})
     @Test
-    public void parameterstestExample(String browser) throws Exception {
-        System.out.println("parameterstestExample - browser recieved - " + browser);
+    public void parameterstestExample(@Optional String browser,String OS) throws Exception {
+        System.out.println("parameterstestExample - browser recieved - " + browser + " " + OS);
         WebDriver driver = WebDriverFactory.getDriver(browser);
     }
 }
